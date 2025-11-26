@@ -1,7 +1,9 @@
+import BlogHeader from "@/components/blog-header/header";
+
 export default function BlogLayout({children}){
     return (
         <>
-        <h1> Blog Layout </h1>
+        <BlogHeader />
         {children}
         </>
     )
