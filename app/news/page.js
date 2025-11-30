@@ -3,7 +3,7 @@ import {DUMMY_NEWS} from '@/app/lib/api/dummy-news'
 
 export default async function NewsPage(){
     const news = await DUMMY_NEWS;
-    console.log("news", news);
+
     return (
         <>
         <header><h1>News Page</h1></header>
